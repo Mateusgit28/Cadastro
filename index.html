@@ -6,47 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Cadastro</h1>
-    <div>
+   <form action="" class="borda">
         <label for="firstname"> Nome:</label>
         <input type="texto">
-    </div>
-    <div>
+        
+    
         <label for="secondname">Sobrenome:</label>
         <input type="text">
-    </div>
-    <div>
+        <br><br>
+    
         <label for="">E-mail:</label>
         <input type="text">
-    </div>
-    <div>
+        <br><br>
+    
         <label for="senha">Senha:</label>
         <input type="text">
-    </div>
-    <div>
+        
+    
         <label for="">Confirmação da senha:</label>
         <input type="text">
-    </div>
-    <div>
+        <br><br>
+    
         <label for="">Data de nascimento</label>
         <input id="date" type="date">
+        <br><br>
 
-    </div>
-    <div>
+    
         <label for="">Endereço:</label>
         <input type="text">
-    </div>
-    <div>
-        <label for="">Número:</label>
+        
+    
+        <label for="">Número</label>
+        <input type="number">
+        <br><br>
+    
+        <label for="">Cidade</label>
         <input type="text">
-    </div>
-    <div>
-        <label for=""></label>
-        <input type="text">
-    </div>
+    
+
+    
+        <label for="">Estado</label>
+        <select name="est" id="est">
+            <optgroup label="Região Sudeste">
+                <option value="RJ">Rio de janeiro</option>
+                <option value="SP" selected >São paulo</option>
+                <option value="PR">Paraná</option>
+
+            </optgroup>
+            
+            
+        </select>
+        <br><br>
+        <button>Salvar</button>
+    </form>
 </body>
 
 </html>
